@@ -1,0 +1,11 @@
+file_format: "1"
+id: tbkmini
+name: tbkmini
+type: shield
+url: https://github.com/Velicoma/zmk-config-tbkminiv2
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - tbkmini_left
+  - tbkmini_right
