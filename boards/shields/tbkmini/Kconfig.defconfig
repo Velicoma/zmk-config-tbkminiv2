@@ -16,3 +16,12 @@ config ZMK_SPLIT
     default y
 
 endif
+
+
+# added to try and fix BLE connection on right
+if SHIELD_TBKMINI_RIGHT
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
